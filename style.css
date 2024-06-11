@@ -17,12 +17,15 @@ header {
 }
 
 header nav ul {
-    color: #1F1534;
     font-size: 18px;
     list-style: none;
     display: flex;
     gap: 48px;
     margin: 0;
+}
+ul li a{
+    text-decoration: none;
+    color: #1F1534;
 }
 
 main {
@@ -64,10 +67,17 @@ main button {
     align-items: center;
 }
 
-main button p {
+main button span {
     font-family: "DM Sans", sans-serif;
     font-weight: 500;
+    font-size: 16px;
     color: white;
+}
+#Logo{
+    color: white;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
 }
 
 .Text {
@@ -81,6 +91,10 @@ footer {
     font-family: "Open Sans", sans-serif;
     text-align: center;
     margin: 82px auto 0;
+}
+footer a{
+    text-decoration: none;
+    color: black;
 }
 
 #balls {
