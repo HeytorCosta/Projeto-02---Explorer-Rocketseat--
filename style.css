@@ -28,6 +28,10 @@ ul li a{
     color: #1F1534;
 }
 
+ul li a:hover{
+    font-weight: bold;
+}
+
 main {
     display: flex;
     justify-content: space-between;
